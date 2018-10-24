@@ -1341,7 +1341,6 @@ header.hp2 .cart-opt a {
 	width: 100%;
 	text-align: center;
 	position: relative;
-	transition(.6s ease-in-out left);
 }
 .testimonial-carousel:before {
 	left: 100px;
