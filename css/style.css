@@ -310,7 +310,7 @@ header nav ul li a .fa-home,
 	background-repeat: repeat;
 }
 .bg8 {
-	background-image: url(../images/gallery2.jpg);
+	background-image: url(../images/contact.jpg);
 }
 .bg9 {
 	background-image: url(../images/bg-contact.jpg);
@@ -325,6 +325,11 @@ header nav ul li a .fa-home,
 }
 .bg12 {
 	background-image: url(../images/prices.jpg);
+}
+
+.bg13 {
+	background-image: url(../images/baby1.png);
+	margin-top: 5%;
 }
 
 .clr-overlay:before {
@@ -5016,7 +5021,20 @@ button:focus {
 	background-color: #A940FF;
 }
 
+					/*CONTACT PAGE DIFFERENT IMAGES*/	
+						
+					.img-responsive.mobile {
+					  display: none;
+					}
 
+					@media only screen and (max-device-width: 480px) {
+					  .img-responsive {
+					    display: none;
+					  }
+					  .img-responsive.mobile {
+					    display: block;
+					  }
+					}
 
 
 
