@@ -525,7 +525,7 @@ header.pb {
 	top: 0;
 	left: 0;
 	z-index: 9999;
-	background-color: #A940FF;
+	background-color: #E177FF;
 }
 header.pb.sticky nav > ul > li > a .fa-home {
 	font-size: 24px;
@@ -5018,7 +5018,7 @@ button:focus {
 }
 
 .purp {
-	background-color: #A940FF;
+	background-color: #E177FF;
 }
 
 					/*CONTACT PAGE DIFFERENT IMAGES*/	
