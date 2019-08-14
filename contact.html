@@ -145,21 +145,11 @@
 
 						<!-- FORM START -->
 					
-						<div class="opacity2">
-							<h3 class="title-hdd">Send us a message!</h1>
-						<div class="contact-form" style="margin-top: 100px">
-							<form id="contact-form" method="post" action="contact-form-handler.php">
-
-								<input type="text" name="name" class="form-control" placeholder="Your Name" required><br>
-
-								<input type="email" name="email" class="form-control" placeholder="Your Email" required><br>
-
-								<textarea name="message" class="form-control" placeholder="Message" row="4" required style="height: 200px"></textarea><br>
-
-								<input type="submit" class="form-control submit" value="SEND MESSAGE">
-
-							</form>
-					</div>
+						<form method="POST" action="https://formspree.io/danny.roach@hotmail.co.uk">
+							<input type="email" name="email" placeholder="Your Email">
+							<textarea name="message" placeholder="Your Message"></textarea>
+							<button type="submit">Send Message</button>
+						</form>
 
 					
 						
