@@ -5063,17 +5063,18 @@ button:focus {
 }
 
 .form-control {
-	width: 500px;
+	width: 150%;
 	font-size: 18px;
 	margin: 16px;
 	font-family: Dosis;
-	background: rgba(255, 255, 255, 0.5);
+	background: rgba(255, 255, 255, 1);
 	border: none;
 	outline: none;
 }
 
-
-
+.message {
+	margin: 20%;
+}
 
 
 
