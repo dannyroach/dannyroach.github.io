@@ -5085,7 +5085,7 @@ button:focus {
 	margin-top: 20%;
 }
 
-@media only screen and (min-device-width: 480px) {
+@media only screen and (min-device-width: 900px) {
 					  .index1 {
 					    width: 100%;
 					  }
