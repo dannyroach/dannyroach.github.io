@@ -310,7 +310,7 @@ header nav ul li a .fa-home,
 	background-repeat: repeat;
 }
 .bg8 {
-	background-image: url(../images/contact.jpg);
+	background-image: url(../images/contact123.jpg);
 }
 .bg9 {
 	background-image: url(../images/bg-contact.jpg);
@@ -5080,7 +5080,10 @@ button:focus {
 	margin-top: 20%;
 }
 
-
+.index1 {
+	width: 100%;
+	margin-top: 20%;
+}
 
 
 
