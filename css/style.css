@@ -92,6 +92,7 @@ q:before, q:after {
 button {
 	outline: none;
 	cursor: pointer;
+	color: purple;
 }
 table {
 	border-collapse: collapse;
@@ -2860,7 +2861,7 @@ caption {
 	color: #fff;
 }
 .btn-default {
-	background-color: #3bbcd6;
+	background-color: #E177FF;
 }
 .btn-purple {
 	background-color: #765197;
@@ -5089,6 +5090,24 @@ button:focus {
 					  .index1 {
 					    width: 100%;
 					  }
+
+.staffPics {
+	width: 100%;
+}
+
+.popup {
+	font-family: 'Amatic SC', cursive;
+	font-size: 36px;
+	font-weight: 700;
+}
+
+
+
+
+
+
+
+
 
 
 
