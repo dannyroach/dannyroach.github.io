@@ -2,7 +2,7 @@ $(window).on("load", function() {
     "use strict";
 
 
-    //  ============= MOBILE RESPONSIVE MENU ===============
+    // MOBILE RESPONSIVE MENU 
 
     $(".menu-btn").on("click", function(){
       $(this).toggleClass("active");
@@ -17,7 +17,7 @@ $(window).on("load", function() {
       return false;
     });
 
-    // ===================================== STICKY HEADER =========================================//
+    // STICKY HEADER 
 
     if ($(window).width() > 991) {
       $(window).on("scroll", function() {
@@ -29,6 +29,29 @@ $(window).on("load", function() {
         }
       });
     };
+
+    // scroll to Top Button 
+
+    //Check to see if the window is top if not then display button
+    
+    var header_height = $("header").innerHeight();
+    $(window).on("scroll", function(){
+        if ($(this).scrollTop() > header_height) {
+            $('.scrollTop').addClass("show");
+        } else {
+            $('.scrollTop').removeClass("show");
+        }
+    });
+
+    $(".scrollTop").css({
+      "right": gap
+    });
+
+    $('.scrollTop').on("click", function(){
+        $('html, body').animate({scrollTop : 0},1000);
+        return false;
+    });
+
 
 
     // ============== Custom Tabs Function ============= 
@@ -108,29 +131,6 @@ $(window).on("load", function() {
         "height": overview_progress
     });
 
-
-    // =================== Scroll to Top Button ================== 
-
-
-     //Check to see if the window is top if not then display button
-    
-    var header_height = $("header").innerHeight();
-    $(window).on("scroll", function(){
-        if ($(this).scrollTop() > header_height) {
-            $('.scrollTop').addClass("show");
-        } else {
-            $('.scrollTop').removeClass("show");
-        }
-    });
-
-    $(".scrollTop").css({
-      "right": gap
-    });
-
-    $('.scrollTop').on("click", function(){
-        $('html, body').animate({scrollTop : 0},1000);
-        return false;
-    });
 
     // =================== ROOM SLIDER ===============
 
@@ -237,7 +237,7 @@ $(window).on("load", function() {
       ]
     });
 
-    // =================== STAFF SLIDER ===============
+    // STAFF SLIDER
 
     $('.staff-carousel').slick({
         slidesToShow: 4,
@@ -284,7 +284,7 @@ $(window).on("load", function() {
       ]
     });
 
-    // =================== STAFF2 SLIDER ===============
+    // STAFF2 SLIDER 
 
     $('.staff-carousel2').slick({
         slidesToShow: 3,
@@ -378,7 +378,7 @@ $(window).on("load", function() {
       ]
     });
 
-    // =================== POST GALLERY SLIDER ===============
+    // POST GALLERY SLIDER
 
     $('.post-gallery').slick({
         slidesToShow: 1,
@@ -392,7 +392,7 @@ $(window).on("load", function() {
     });
 
 
-    // =================== TESTIMONIAL SLIDER ===============
+    // TESTIMONIAL SLIDER 
 
     $('.testimonial-carousel').slick({
         slidesToShow: 1,
@@ -411,5 +411,33 @@ $(window).on("load", function() {
  $(window).load(function(){        
    $('#myModal').modal('show');
     }); 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
