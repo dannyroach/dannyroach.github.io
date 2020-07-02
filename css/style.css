@@ -312,6 +312,7 @@ header nav ul li a .fa-home,
 }
 .bg8 {
 	background-image: url(../images/contact123.jpg);
+	height: 100vh;
 }
 .bg9 {
 	background-image: url(../images/bg-contact.jpg);
@@ -610,6 +611,15 @@ header nav ul li a .fa-home {
 	font-size: 41px;
 }
 header nav ul li a .fa-file-text-o {
+	color: #ffffff;
+}
+header nav ul li a .fa-money {
+	color: #ffffff;
+}
+header nav ul li a .fa-picture-o {
+	color: #ffffff;
+}
+header nav ul li a .fa-building-o {
 	color: #ffffff;
 }
 header nav ul li a .fa-edit {
